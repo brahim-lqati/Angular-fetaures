@@ -46,4 +46,8 @@ export class ProductService {
   handleError(): Observable<never> {
     return throwError('Error not implemented')
   }
+
+  addTestFunction(): void {
+    console.log('hello my friend');
+  }
 }
