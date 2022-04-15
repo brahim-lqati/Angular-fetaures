@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "pc portable",
+            "price" : 1300,
+            "quantity" : 10,
+            "selected" : true,
+            "available" : false
+        },
+        {
+            "id": 2,
+            "name": "telephone portable",
+            "price" : 2000,
+            "quantity" : 5,
+            "selected" : true,
+            "available" : false
+        },
+        {
+            "id": 3,
+            "name": "chargeur rapide",
+            "price" : 23,
+            "quantity" : 120,
+            "selected" : false,
+            "available" : true
+        }
+    ]
+}

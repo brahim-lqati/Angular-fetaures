@@ -1,0 +1,16 @@
+<p>home works!</p>
+
+
+
+<ul *ngIf="products$ | async as products else loading">
+    <li *ngFor="let product of products">
+           {{ product.price }} 
+    </li>
+</ul>
+
+
+<ng-template #loading>
+    <div>
+        <p>Loading !!!</p>
+    </div>
+</ng-template>
